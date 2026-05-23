@@ -48,6 +48,13 @@ set(KEYOUBES_SOURCES
     src/core/SubmapEditor.cpp
     src/core/DeviceManager.cpp
     src/core/GestureEditor.cpp
+    src/core/WindowUrgency.cpp
+    src/core/ScreenShareRule.cpp
+    src/core/PrivacyIndicator.cpp
+    src/core/PolkitAgent.cpp
+    src/core/ProcessModule.cpp
+    src/core/HttpDataSource.cpp
+    src/core/DBusMethodAction.cpp
     src/ipc/IpcAdapter.cpp
     src/ipc/NiriAdapter.cpp
     src/ipc/HyprlandAdapter.cpp
@@ -88,6 +95,13 @@ set(KEYOUBES_HEADERS
     src/core/SubmapEditor.hpp
     src/core/DeviceManager.hpp
     src/core/GestureEditor.hpp
+    src/core/WindowUrgency.hpp
+    src/core/ScreenShareRule.hpp
+    src/core/PrivacyIndicator.hpp
+    src/core/PolkitAgent.hpp
+    src/core/ProcessModule.hpp
+    src/core/HttpDataSource.hpp
+    src/core/DBusMethodAction.hpp
     src/ipc/IpcAdapter.hpp
     src/ipc/NiriAdapter.hpp
     src/ipc/HyprlandAdapter.hpp

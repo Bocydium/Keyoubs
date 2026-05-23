@@ -7,7 +7,6 @@ Design status bars, docks, widgets, and edit your compositor layout — all with
 ![Branding](branding.png)
 
 ---
-
 ## What it looks like
 
 Keyoubs opens as a sleek dark overlay on top of your workspace. The editor floats above everything with:

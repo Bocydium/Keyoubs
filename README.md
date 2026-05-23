@@ -4,7 +4,7 @@ Build your own desktop environment visually. Like Figma, but for your Linux desk
 
 Design status bars, docks, widgets, and edit your compositor layout — all with a live canvas. Every change happens in real time. No config files required.
 
-![Branding](square.png)
+![Branding](Rectangle.png)
 
 ---
 ## What it looks like

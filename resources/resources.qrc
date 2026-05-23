@@ -1,0 +1,16 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource prefix="/icons">
+        <file>icons/phosphor/cursor.svg</file>
+        <file>icons/phosphor/app-window.svg</file>
+        <file>icons/phosphor/layout.svg</file>
+        <file>icons/phosphor/arrows-out-line-horizontal.svg</file>
+        <file>icons/phosphor/frame-corners.svg</file>
+        <file>icons/phosphor/check.svg</file>
+        <file>icons/phosphor/arrow-counter-clockwise.svg</file>
+        <file>icons/phosphor/cross.svg</file>
+        <file>icons/phosphor/floppy-disk.svg</file>
+        <file>icons/phosphor/trash.svg</file>
+        <file>icons/phosphor/squares-four.svg</file>
+    </qresource>
+</RCC>

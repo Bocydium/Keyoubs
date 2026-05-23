@@ -13,7 +13,8 @@ class ConfigManager : public QObject
 public:
     explicit ConfigManager(QObject *parent = nullptr);
 
-    [[nodiscard]] ConfigModel currentConfig() const { return m_config; }
+    [[nodiscard]] ConfigModel* currentConfig() { return &m_config; }
+    [[nodiscard]] const ConfigModel* currentConfig() const { return &m_config; }
 
     void loadFromFile(const QString &path);
     void saveToFile(const QString &path);
@@ -21,7 +22,7 @@ public:
     void applyLiveChange(const QString &section, const QString &key, const QVariant &value);
 
 signals:
-    void configChanged(const ConfigModel &config);
+    void configChanged(ConfigModel *config);
 
 private:
     ConfigModel m_config;

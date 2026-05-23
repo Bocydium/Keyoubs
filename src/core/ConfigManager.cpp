@@ -28,7 +28,7 @@ void ConfigManager::applyLiveChange(const QString &section, const QString &key, 
     Q_UNUSED(section)
     Q_UNUSED(key)
     Q_UNUSED(value)
-    emit configChanged(m_config);
+    emit configChanged(&m_config);
 }
 
 } // namespace keyoubs

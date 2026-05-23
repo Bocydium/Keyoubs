@@ -7,6 +7,8 @@ namespace keyoubs {
 
 class OverlayWindow;
 class ConfigManager;
+class ThemeConfig;
+class LuaEngine;
 class IpcAdapter;
 
 class Application : public QObject
@@ -23,6 +25,8 @@ public:
 private:
     std::unique_ptr<OverlayWindow> m_overlay;
     std::unique_ptr<ConfigManager> m_configManager;
+    std::unique_ptr<ThemeConfig> m_themeConfig;
+    std::unique_ptr<LuaEngine> m_luaEngine;
     std::unique_ptr<IpcAdapter> m_ipcAdapter;
 
     void detectCompositor();

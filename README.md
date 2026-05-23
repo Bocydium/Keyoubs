@@ -90,4 +90,4 @@ KEYOUBES/
 
 ## License
 
-TBD
+GNU GPL V3.0

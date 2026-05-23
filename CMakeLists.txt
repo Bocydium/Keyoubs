@@ -55,6 +55,10 @@ set(KEYOUBES_SOURCES
     src/core/ProcessModule.cpp
     src/core/HttpDataSource.cpp
     src/core/DBusMethodAction.cpp
+    src/core/CompositorCompatibility.cpp
+    src/core/IncludeManager.cpp
+    src/core/ColorProfile.cpp
+    src/ui/GlowDecoration.cpp
     src/ipc/IpcAdapter.cpp
     src/ipc/NiriAdapter.cpp
     src/ipc/HyprlandAdapter.cpp
@@ -102,6 +106,10 @@ set(KEYOUBES_HEADERS
     src/core/ProcessModule.hpp
     src/core/HttpDataSource.hpp
     src/core/DBusMethodAction.hpp
+    src/core/CompositorCompatibility.hpp
+    src/core/IncludeManager.hpp
+    src/core/ColorProfile.hpp
+    src/ui/GlowDecoration.hpp
     src/ipc/IpcAdapter.hpp
     src/ipc/NiriAdapter.hpp
     src/ipc/HyprlandAdapter.hpp

@@ -44,6 +44,8 @@ set(KEYOUBES_SOURCES
     src/core/IpcWorker.cpp
     src/core/DebouncedWriter.cpp
     src/core/EventCoalescer.cpp
+    src/core/HyprlandLuaConfig.cpp
+    src/core/SubmapEditor.cpp
     src/ipc/IpcAdapter.cpp
     src/ipc/NiriAdapter.cpp
     src/ipc/HyprlandAdapter.cpp
@@ -55,6 +57,8 @@ set(KEYOUBES_SOURCES
     src/ui/PhosphorIcons.cpp
     src/ui/StatusBar.cpp
     src/ui/Dock.cpp
+    src/ui/NiriCanvas.cpp
+    src/ui/NiriBlurEditor.cpp
     src/models/ConfigModel.cpp
 )
 
@@ -78,6 +82,8 @@ set(KEYOUBES_HEADERS
     src/core/IpcWorker.hpp
     src/core/DebouncedWriter.hpp
     src/core/EventCoalescer.hpp
+    src/core/HyprlandLuaConfig.hpp
+    src/core/SubmapEditor.hpp
     src/ipc/IpcAdapter.hpp
     src/ipc/NiriAdapter.hpp
     src/ipc/HyprlandAdapter.hpp
@@ -89,6 +95,8 @@ set(KEYOUBES_HEADERS
     src/ui/PhosphorIcons.hpp
     src/ui/StatusBar.hpp
     src/ui/Dock.hpp
+    src/ui/NiriCanvas.hpp
+    src/ui/NiriBlurEditor.hpp
     src/models/ConfigModel.hpp
 )
 

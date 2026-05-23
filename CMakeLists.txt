@@ -46,6 +46,8 @@ set(KEYOUBES_SOURCES
     src/core/EventCoalescer.cpp
     src/core/HyprlandLuaConfig.cpp
     src/core/SubmapEditor.cpp
+    src/core/DeviceManager.cpp
+    src/core/GestureEditor.cpp
     src/ipc/IpcAdapter.cpp
     src/ipc/NiriAdapter.cpp
     src/ipc/HyprlandAdapter.cpp
@@ -84,6 +86,8 @@ set(KEYOUBES_HEADERS
     src/core/EventCoalescer.hpp
     src/core/HyprlandLuaConfig.hpp
     src/core/SubmapEditor.hpp
+    src/core/DeviceManager.hpp
+    src/core/GestureEditor.hpp
     src/ipc/IpcAdapter.hpp
     src/ipc/NiriAdapter.hpp
     src/ipc/HyprlandAdapter.hpp
